@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/estilo_carrito.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/63fafe2dae.js" crossorigin="anonymous"></script>
-
+    
 </head>
 
 <body>
@@ -45,9 +45,9 @@
                                     <h5 class="d-inline-block">19.99 $</h5>
                         </div>
                         <div class="modificar-cantidad d-inline-block ">
-                            <button type="button" class="btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
+                            <button type="button" class="restar-cantidad btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
                             <p class=" cantidad-producto d-inline-block">1</p>
-                            <button type="button" class="btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
+                            <button type="button" class="sumar-cantidad btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
                         </div>
                         <button type="button" class="btn-danger border-0 btn-elimina-producto"><i class="fas fa-trash"></i></button>
                     </div>
@@ -75,9 +75,9 @@
                                     <h5 class="d-inline-block">19.99 $</h5>
                         </div>
                         <div class="modificar-cantidad d-inline-block ">
-                            <button type="button" class="btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
+                            <button type="button" class="restar-cantidad btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
                             <p class=" cantidad-producto d-inline-block">1</p>
-                            <button type="button" class="btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
+                            <button type="button" class="sumar-cantidad btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
                         </div>
                         <button type="button" class="btn-danger border-0 btn-elimina-producto"><i class="fas fa-trash"></i></button>
                     </div>
@@ -103,9 +103,9 @@
                                     <h5 class="d-inline-block">19.99 $</h5>
                         </div>
                         <div class="modificar-cantidad d-inline-block ">
-                            <button type="button" class="btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
+                            <button type="button" class="restar-cantidad btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
                             <p class=" cantidad-producto d-inline-block">1</p>
-                            <button type="button" class="btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
+                            <button type="button" class="sumar-cantidad btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
                         </div>
                         <button type="button" class="btn-danger border-0 btn-elimina-producto"><i class="fas fa-trash"></i></button>
                     </div>
@@ -130,9 +130,9 @@
                                     <h5 class="d-inline-block">19.99 $</h5>
                         </div>
                         <div class="modificar-cantidad d-inline-block ">
-                            <button type="button" class="btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
+                            <button type="button" class="restar-cantidad btn-circular d-inline-block border-0"><i class="fas fa-minus"></i></button>
                             <p class=" cantidad-producto d-inline-block">1</p>
-                            <button type="button" class="btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
+                            <button type="button" class="sumar-cantidad btn-circular d-inline-block  border-0"><i class="fas fa-plus"></i></button>
                         </div>
                         <button type="button" class="btn-danger border-0 btn-elimina-producto"><i class="fas fa-trash"></i></button>
                     </div>
@@ -174,7 +174,7 @@
     <!-- FIN-->
 
     <!-- CODIGO JS -->
-
+    <script src="js/carritoInteractividad.js"></script>
     <!-- FIN -->
 </body>
 
