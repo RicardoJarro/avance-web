@@ -1,0 +1,160 @@
+/* --------------------ESTILO PARA CARRITO DE PRODUCTOS----------------------- */
+
+.mano {
+    cursor: pointer;
+
+}
+
+
+/* Parte izquierda */
+.separador-carrito {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border: 1px solid #D8D8D8
+}
+
+#btn-vaciar-carrito {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+#btn-vaciar-carrito:hover {
+    background-color: #d84e4e;
+}
+
+.item-carrito {
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    height: 185px;
+}
+
+.container-imagen {
+    position: relative;
+    height: 173px;
+}
+
+.container-imagen img {
+    margin-right: 15px;
+    height: 100%;
+}
+
+.info-item-carrito {
+    top: 15px;
+    left: 185px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.info-item-carrito h5 {
+    font-size: 2em;
+}
+
+.info-item-carrito h6 {
+    font-size: 1.2em;
+}
+
+.modificar-cantidad {
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.cantidad-producto {
+    font-size: 2em;
+}
+
+
+.btn-circular {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.btn-circular:hover {
+    background-color: cadetblue;
+}
+
+.btn-elimina-producto {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    bottom: 15px;
+    right: 15px;
+}
+
+/* Para moviles */
+@media screen and (max-width: 980px) {
+    .item-carrito {
+        height: auto;
+    }
+
+    #btn-vaciar-carrito,
+    .modificar-cantidad,
+    .info-item-carrito {
+        position: relative;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .modificar-cantidad {
+        width: 100%;
+    }
+
+    /* .btn-elimina-producto{
+        bottom: 15px;
+        right: 15px;
+    } */
+}
+
+/* Fin */
+
+/*  Parte Derecha */
+#container-resumen-carrito {
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#container-resumen-carrito h4 {
+    font-size: 2.4em;
+    margin-left: 15px;
+    
+}
+#container-resumen-carrito div, hr{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.texto-resumen-pedido{
+    font-size: 2em;
+    text-align: left;
+    display: inline;
+}
+
+.valor-resumen{
+    position: absolute;
+    font-size: 2em;
+    right: 15px;
+    display: inline;
+}
+
+.valor-resumen::after{
+    content: " $";
+}
+.centrar-forzado{
+    text-align: center;
+}
