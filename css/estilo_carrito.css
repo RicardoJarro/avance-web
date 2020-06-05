@@ -56,11 +56,11 @@
 }
 
 .info-item-carrito h5 {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .info-item-carrito h6 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .modificar-cantidad {
@@ -71,7 +71,7 @@
 }
 
 .cantidad-producto {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 
@@ -125,12 +125,12 @@
 /*  Parte Derecha */
 #container-resumen-carrito {
     margin-top: 25px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: left;
 }
 
 #container-resumen-carrito h4 {
-    font-size: 2.4em;
+    font-size: 1em;
     margin-left: 15px;
     
 }
@@ -140,14 +140,14 @@
 }
 
 .texto-resumen-pedido{
-    font-size: 2em;
+    font-size: 1em;
     text-align: left;
     display: inline;
 }
 
 .valor-resumen{
     position: absolute;
-    font-size: 2em;
+    font-size: 1em;
     right: 15px;
     display: inline;
 }
@@ -158,3 +158,62 @@
 .centrar-forzado{
     text-align: center;
 }
+
+/* ESTILOS PARA FACTURACION */
+#fact-container-derecho .valor-resumen{
+    /* position: absolute; */
+    font-size: 1em;
+    right: 15px;
+    display: inline;
+}
+#fact-container-derecho{
+    font-size: 16px;
+}
+
+
+#fact-items-compra .info-item-carrito{
+    top: 5px;
+    left: 100px;
+    line-height: 5px;
+    font-size: 1em;
+}
+#fact-items-compra{
+    position: relative;
+    height: 291px;
+    overflow-y: auto
+}
+
+#fact-items-compra .item-carrito {
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    height: 105px;
+    overflow: hidden;
+}
+#fact-items-compra .container-imagen {
+    position: relative;
+    height: 93px;
+}
+
+#fact-items-compra .price_now-price{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+}
+
+/* ESTILO PARA PAGO.PHP */
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px;
+width: 52px; height: 65px;
+text-align: center;}
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+#container-pago-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+ 
+ }
