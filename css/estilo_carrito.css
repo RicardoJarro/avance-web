@@ -217,3 +217,99 @@ text-align: center;}
     transform: translateX(-50%);
  
  }
+
+ /* ESTILO PARA COMPRAS REALIZADAS */
+
+ .no-seleccionable{
+   -moz-user-select: none; 
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none; 
+}
+ #container-compras{
+     font-size: 16px;
+ }
+ #container-compras .compra-unitaria{
+    height: 125px;
+ }
+
+ .compra-unitaria:hover{
+    background-color: #FC5C49 ;
+
+ }
+
+ #container-compras .container-imagen{
+     height: 107px;
+ }
+ #container-compras .info-compra{
+    position: absolute;
+    left: 110px;
+    top: 2px;
+ }
+ #container-compras .precio-pagado{
+     position: absolute;
+     right: 20px;
+     top: 50%;
+    transform: translateY(-50%);
+ }
+
+ 
+@media screen and (max-width: 420px) {
+    #container-compras .compra-unitaria{
+        height: 285px;
+     }
+     #container-compras .info-compra,  #container-compras .precio-pagado {
+         top: 0;
+         left: 0;
+        position: relative;
+        display: block;
+        transform: none;
+     }
+}
+
+/* Estilo para detalle_compra */
+#container-productos-pedido .producto-pedido{
+    height: 120px;
+    /* position: relative; */
+}
+#container-productos-pedido .container-imagen{
+    height: 108px;
+    margin: 5px;
+}
+
+#container-resumen-compra .info-pedido-detallado p, #container-resumen-compra .pago-pedido p{
+    display: inline;
+}
+
+#container-resumen-compra .info-pedido-detallado div{
+    margin: 5px;
+}
+
+#div-factura{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.producto-pedido .producto-pedido-info{
+    line-height: 5px;
+    position: absolute;
+    left: 110px;
+    top: 7px;
+}
+.producto-pedido  .producto-total-pedido{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+@media screen and (max-width: 320px) {
+    #container-productos-pedido .producto-pedido{
+        height: 160px;
+        /* position: relative; */
+    }
+}
+.dolares::after {
+    content: " $";
+}
