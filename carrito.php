@@ -7,16 +7,22 @@
     <title>Carrito compras</title>
     <link rel="stylesheet" href="css/estilo_carrito.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/63fafe2dae.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/63fafe2dae.js" crossorigin="anonymous"></script> -->
     
 </head>
 
 <body>
-
+     <!-- Incluimos el header,  -->
+     <?php
+    include "header.php";
+    ?>
+    <!-- <div class="section"> -->
+    <br>
     <div class="container-fluid">
         <div class="row">
+           
             <!-- PRODUCTOS EN LA CESTA-PARTE IZQUIERDA -->
-            <div class="col col-12 col-sm-12 col-md-7 col-lg-7 container-iquierdo">
+            <div class="col col-xs-12 col-sm-12 col-md-7 col-lg-7 container-iquierdo">
                 <div class="position-relative">
                     <h2 class="display-4">Cesta de productos</h2>
                     <p id="btn-vaciar-carrito"><i class="fas fa-trash mano"></i></p>
@@ -166,11 +172,22 @@
             </div>
         </div>
     </div>
+           
+    </div>
+    <!-- </div> -->
+
+    <!-- Incluimos el footer, con esto tambien se incluyen todas las librerias -->
+    <?php 
+    include "footer.php";
+    ?>
+
     <!-- LIBRERIAS -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.js"></script>
+    
+
     <!-- FIN-->
 
     <!-- CODIGO JS -->

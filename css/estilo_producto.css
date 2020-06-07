@@ -1,8 +1,10 @@
+
+
+
 .producto-imagen-grande {
     width: 417px;
     height: 478px;
     /* overflow: hidden; */
-    border: 2px solid black;
     min-width: 217px;
     min-height: 278;
     margin: auto;
@@ -11,20 +13,20 @@
 
 .container-imagenes-min {
     display: inline;
-    background-color: violet;
-    border: blue 2px;
-
 }
 
 .container-info {
     display: inline;
-    background-color: blueviolet;
+    font-size: 16px;
 }
 
 .producto-imagen-grande img {
     width: 100%;
     height: 100%;
 
+}
+.container-info #deter-producto-nombre{
+ font-size: 0.6em;
 }
 
 #lista-imagenes {
@@ -37,7 +39,12 @@
 }
 
 #lista-imagenes .activado {
-    border: blueviolet solid 2px;
+    box-shadow: 0px 0px 2px #DC2545;
+
+}
+
+.container-cantidad #id_num_prenda{
+    font-size: 1.4em;
 }
 
 /* botones paleta de colores */
@@ -50,6 +57,12 @@
     margin: 5px;
     padding: 10px;
     border: 0px;
+}
+
+.boton-color:hover {
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter: alpha (opacity=50);
 }
 
 .amarillo {
@@ -73,11 +86,11 @@
     background-color: #000000;
 }
 
+/* Productos relaciondos */
 .img-product-recommend {
     max-width: 254px;
     max-height: 275px;
 }
-
 
 .slider-items {
     width: auto;
@@ -111,7 +124,7 @@
 } 
 
 .slider-items::-webkit-scrollbar:horizontal {
-    height: 20px;
+    height: 15px;
 }
 
 .slider-items::-webkit-scrollbar-thumb {
@@ -126,15 +139,9 @@
 
 /*----------FIN-----------*/
 
-.boton-color:hover {
-    opacity: 0.50;
-    -moz-opacity: .50;
-    filter: alpha (opacity=50);
-}
 
 
 
-/* botones paleta de colores */
 
 /*--suma y resta--*/
 .container-cantidad div {

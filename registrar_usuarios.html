@@ -1,0 +1,343 @@
+<html>
+    <head>
+        <title>Proyecto con bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    
+        
+        <style type="text/css">
+            .borde{
+                background-color: gray;
+                text-align: center;
+            }
+        </style>
+
+
+    </head>
+    <body> 
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> Numero de telefono</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> dispers@gmail.com.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> ubicacion</a></li>
+						<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Ayuda</a></li>
+					</ul>
+					
+					<ul class="header-links pull-right">
+						<div class="btn-group">
+							<button type="button" class="btn btn-dark btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-o"></i> Cuenta </button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item"> <i class="fa fa-user-o"></i>  Perfil de usuario </a> <br>
+								<a href="#" class="dropdown-item"> <i class="fa fa-list-ol" aria-hidden="true"></i>  Listar compras </a> <br>
+								<a href="#" class="dropdown-item"> <i class="fa fa-times" aria-hidden="true"></i>  Cerrar Sesión </a>
+	
+							</div>
+						</div>
+					</ul>
+				</div>
+
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo_principal.png"  alt="">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- SEARCH BAR -->
+						<div class="col-md-7 aling-itme-center">
+							<div class="header-search">
+								<form>
+									<input class="input" placeholder="Buscar Producto" class="form-inline">
+									<button class="search-btn">Search</button>
+								</form>
+							</div>
+						</div>
+						<!-- /SEARCH BAR -->
+
+						<!-- ACCOUNT -->
+						<div class="col-md-2 clearfix">
+							<div class="header-ctn">
+								<!-- Cart -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Tu Carrito</span>
+										<div class="qty">3</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/camiseta.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">camiseta</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>$20.00</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/taza.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Taza personalizada</a></h3>
+													<h4 class="product-price"><span class="qty">2x</span>$15.00</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										</div>
+										<div class="cart-summary">
+											<small>3 Articulos seleccionados</small>
+											<h5>SUBTOTAL: $50.00</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Ver Carrito</a>
+											<a href="#">Comprar  <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</heander>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="nav-item "><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="Hombre"> Inicio </a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="Hombre"> Ropa </a>
+										<div class="dropdown-menu">
+											<a href="#" class="dropdown-item">  Ropa de hombre </a> <br> 
+											<a href="#" class="dropdown-item">  Ropa de mujeres </a> <br>
+											<a href="#" class="dropdown-item">  Ropa de niños </a> <br>
+											
+										</div>	
+						</li>
+						<li>
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="Mujer">Accesorios</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">  Billeteras </a> <br> 
+								<a href="#" class="dropdown-item">  Gorras </a> <br>
+							
+							</div>	
+						<li>
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="nino">Articulos del hogar</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">  Tazas </a> <br> 
+								<a href="#" class="dropdown-item">  Posters </a> <br>
+								<a href="#" class="dropdown-item">  Padmouse </a> <br>
+								
+							</div>	
+						</li>
+
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+	
+		
+		<!--Contenido de la pagina secciones-->
+		<div class="section primary">
+			<div class="conteiner">
+				<div class="row">
+					<div class="col-12">
+						<div class="container">
+                            <div class="col-md-4 row ">
+								<h1 class="col-12 text-center ">Registro de datos</h1>
+								<hr class="bg-dark">
+								<p class="col-12 text-center">Bienvenido al registo de datos, recuerda completar todos los campos</p>
+								<p class="col-12 col-md-offset text-danger small">*Todos los campos son obligatorios</p>
+                                <form action="proceso.php" method="POST" class="form-horizontal">
+                                    <div class="col-md-4 form-group">
+                                        <label for="nombre" class="control-lable control-center col-md-2 col-md-offset-3">Nombre</label> 
+                                        <div class="col-md-4">
+                                            <input name="" type="text" id="nombre" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group">
+                                        <label for="password" class="control-lable control-center col-md-2 col-md-offset-3">Contraseña</label> 
+                                        <div class="col-md-4">
+                                            <input type="password" id="password" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                            
+
+                                    <div class="col-md-4 form-group">
+                                        <label for="cedula" class="control-lable control-center col-md-2 col-md-offset-3">Cedula</label> 
+                                        <div class="col-md-4">
+                                            <input type="text" id="cedula" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group">
+                                        <label for="nick" class="control-lable control-center col-md-2 col-md-offset-3">Nick</label> 
+                                        <div class="col-md-4">
+                                            <input type="text" id="nick" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group">
+                                        <label for="direccion" class="control-lable control-center col-md-2 col-md-offset-3">Dirección</label> 
+                                        <div class="col-md-4">
+                                            <input type="text" id="direccion" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group">
+                                        <label for="telefono" class="control-lable control-center col-md-2 col-md-offset-3">Teléfono</label> 
+                                        <div class="col-md-4">
+                                            <input type="text" id="telefono" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 form-group">
+                                        <label for="correo" class="control-lable control-center col-md-2 col-md-offset-3">E-mail</label> 
+                                        <div class="col-md-4">
+                                            <input type="email" id="correo" class="form-control" required>
+                                        </div>
+                                    </div>
+                                   
+                                   
+                                    <div class="col-md-4 form-group">
+                                        <div class="col-md-2 col-md-offset-6">
+                                            <input type="submit" value="Registrarse" class="brn btn-dark">
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="col-md-4 col-md-offset-1">   
+                                    <p class="text-center">
+                                        Al registrarte aceptas nuestras Condiciones de uso <br>
+                                        y Política de provacidad
+                                    </p>
+                                </div>
+                                <div class="col-md-offset-1">   
+                                    <p class="text-center">
+                                        Ya tienes una cuenta?  <a href="#" class="alert-link">Inicia Sesion</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+
+						<div class="col-md-4 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Siguenos</h3>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+									<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+									<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+						
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categorías</h3>
+								<ul class="footer-links">
+									<li><a href="#">Ropa</a></li>
+									<li><a href="#">Accesorios</a></li>
+									<li><a href="#">Articulos del Hogar</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Atención al cliente</h3>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>Ubicacion</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>Numero de Telefono</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>dispers@email.com</a></li>
+									<li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Ayuda</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+    
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
