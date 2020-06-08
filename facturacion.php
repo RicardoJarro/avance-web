@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facturacion</title>
-    <link rel="stylesheet" href="css/estilo_carrito.css">
+    <link rel="stylesheet" href="css/estilo_carrito_pago_compras.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/63fafe2dae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Incluimos el header,  -->
+    <?php
+    include "header.php";
+    ?>
+
     <div>
         <h2 class="m-3">Facturacion</h2>
         <hr>
@@ -84,7 +89,7 @@
 
                     <div class="form-group center">
                         <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary">Confirmar compra</button>
+                        <a href=""></a><button type="submit" class="btn btn-danger">Confirmar compra</button>
                     </div>
                 </form>
             </div>
@@ -116,7 +121,7 @@
                                 <img src="images/camisa-rubik_1_negro.jpg" class="h-100">
                             </div>
                             <div class="info-item-carrito d-inline-block ">
-                                <h5><a href="#">Camiseta Rubik</a></h5>
+                                <h5><a href="producto.php">Camiseta Rubik</a></h5>
                                 <h6 class="d-inline">Color: </h6>
                                 <h7 class="d-inline">negro</h7>
                                 <br>
@@ -143,35 +148,7 @@
                                 <img src="images/camisa-rubik_1_negro.jpg" class="h-100">
                             </div>
                             <div class="info-item-carrito d-inline-block ">
-                                <h5><a href="#">Camiseta Rubik</a></h5>
-                                <h6 class="d-inline">Color: </h6>
-                                <h7 class="d-inline">negro</h7>
-                                <br>
-                                <h6 class="d-inline-block">Talla: </h6>
-                                <select name="" id="tallas-disponibles">
-                                    <option value="">XS</option>
-                                    <option value="">S</option>
-                                    <option value="">M</option>
-                                    <option value="">X</option>
-                                </select>
-                                <br>
-                                <div class="item-cantidad">
-                                    <h6 class="d-inline">Cantidad:</h6>
-                                    <p class="d-inline">2</p>
-                                </div>
-                            </div>
-                            <div class="price_now-price">
-                                <h5>19.99$</h5>
-                            </div>
-                        </div>
-
-
-                        <div class="row item-carrito border rounded">
-                            <div class="container-imagen d-inline-block">
-                                <img src="images/camisa-rubik_1_negro.jpg" class="h-100">
-                            </div>
-                            <div class="info-item-carrito d-inline-block ">
-                                <h5><a href="#">Camiseta Rubik</a></h5>
+                                <h5><a href="producto.php">Camiseta Rubik</a></h5>
                                 <h6 class="d-inline">Color: </h6>
                                 <h7 class="d-inline">negro</h7>
                                 <br>
@@ -199,7 +176,7 @@
                                 <img src="images/camisa-rubik_1_negro.jpg" class="h-100">
                             </div>
                             <div class="info-item-carrito d-inline-block ">
-                                <h5><a href="#">Camiseta Rubik</a></h5>
+                                <h5><a href="producto.php">Camiseta Rubik</a></h5>
                                 <h6 class="d-inline">Color: </h6>
                                 <h7 class="d-inline">negro</h7>
                                 <br>
@@ -227,7 +204,35 @@
                                 <img src="images/camisa-rubik_1_negro.jpg" class="h-100">
                             </div>
                             <div class="info-item-carrito d-inline-block ">
-                                <h5><a href="#">Camiseta Rubik</a></h5>
+                                <h5><a href="producto.php">Camiseta Rubik</a></h5>
+                                <h6 class="d-inline">Color: </h6>
+                                <h7 class="d-inline">negro</h7>
+                                <br>
+                                <h6 class="d-inline-block">Talla: </h6>
+                                <select name="" id="tallas-disponibles">
+                                    <option value="">XS</option>
+                                    <option value="">S</option>
+                                    <option value="">M</option>
+                                    <option value="">X</option>
+                                </select>
+                                <br>
+                                <div class="item-cantidad">
+                                    <h6 class="d-inline">Cantidad:</h6>
+                                    <p class="d-inline">2</p>
+                                </div>
+                            </div>
+                            <div class="price_now-price">
+                                <h5>19.99$</h5>
+                            </div>
+                        </div>
+
+
+                        <div class="row item-carrito border rounded">
+                            <div class="container-imagen d-inline-block">
+                                <img src="images/camisa-rubik_1_negro.jpg" class="h-100">
+                            </div>
+                            <div class="info-item-carrito d-inline-block ">
+                                <h5><a href="producto.php">Camiseta Rubik</a></h5>
                                 <h6 class="d-inline">Color: </h6>
                                 <h7 class="d-inline">negro</h7>
                                 <br>
@@ -260,6 +265,9 @@
         </div>
 
     </div>
+    <?php
+    include "footer.php";
+    ?>
 
     <!-- LIBRERIAS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

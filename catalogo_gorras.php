@@ -38,9 +38,9 @@
                         </li>
                         <li id="cat-accesorios"><a href="#">Accesorios<i class="icono derecha fas fa-chevron-down"></i></a>
                             <ul>
-                                <li id="cat-acces-mujer"><a href="#">Billeteras</a></li>
+                                <li id="cat-acces-billes"><a href="#">Billeteras</a></li>
                                 <li id="cat-acces-gorras"><a href="catalogo_gorras.php">Gorras</a></li>
-                                <li id="cat-acces-ninos"><a href="#">Varios</a></li>
+                                <li id="cat-acces-varios"><a href="#">Varios</a></li>
                             </ul>
                         </li>
                         <li id="cat-articulosh"><a href="#">Articulos del hogar<i class="icono derecha fas fa-chevron-down"></i></a>
@@ -62,7 +62,7 @@
                     <div class="w-100">
                         <div class="product-catalog">
                             <a href="producto.php">
-                                <img src="images/camisa-tiburon_1_blanco.jpg">
+                                <img src="images/acesorios/1.jpg">
                                 <div class="product-catalog-info">
                                     <p id="nombre">CAMISETA TIBURON</p>
                                     <p id="precio">19.99 $</p>
@@ -72,8 +72,7 @@
 
                         <div class="product-catalog mano">
                             <a href="producto.php">
-                                <img src="images/camisa-rubik_1_negro.jpg">
-                                <div class="product-catalog-info">
+                                <img src="images/acesorios/1.jpg">
                                     <p id="nombre">CAMISETA CUBO RUBIK</p>
                                     <p id="precio">19.99 $</p>
                                 </div>
@@ -83,7 +82,7 @@
 
                         <div class="product-catalog mano">
                             <a href="producto.php">
-                                <img src="images/camisa-motivacion1_1_negro.jpg">
+                            <img src="images/acesorios/1.jpg">
                                 <div class="product-catalog-info">
                                     <p id="nombre">CAMISETA MOTIVACION</p>
                                     <p id="precio">19.99 $</p>
@@ -137,8 +136,8 @@
 
 <script>
     $(document).ready(function() {
-        $('#cat-ropa-hombre').addClass('seleccionado');
-        $('#cat-accesorios ul').slideUp();
+        $('#cat-acces-gorras').addClass('seleccionado');
+        $('#cat-ropa ul').slideUp();
         $('#cat-articulosh ul').slideUp();
     });
     $(".btn-menu").click(function() {

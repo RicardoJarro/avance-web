@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito compras</title>
-    <link rel="stylesheet" href="css/estilo_carrito.css">
+    <link rel="stylesheet" href="css/estilo_carrito_pago_compras.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- <script src="https://kit.fontawesome.com/63fafe2dae.js" crossorigin="anonymous"></script> -->
-    
+    <script src="https://kit.fontawesome.com/63fafe2dae.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-     <!-- Incluimos el header,  -->
-     <?php
+    <!-- Incluimos el header,  -->
+    <?php
     include "header.php";
     ?>
     <!-- <div class="section"> -->
     <br>
     <div class="container-fluid">
         <div class="row">
-           
+
             <!-- PRODUCTOS EN LA CESTA-PARTE IZQUIERDA -->
             <div class="col col-xs-12 col-sm-12 col-md-7 col-lg-7 container-iquierdo">
                 <div class="position-relative">
@@ -165,19 +165,19 @@
                         <p class="texto-resumen-pedido"><b>Total</b></p>
                         <p class="valor-resumen" id="total-resumen-pedido"><b>54,98</b></p>
                     </div>
-                    <div class="mt-3 centrar-forzado"><button type="button" class="btn btn-danger">Comprar</button></div>
-                    
+                    <div class="mt-3 centrar-forzado"><a href="facturacion.php"><button type="button" class="btn btn-danger">Comprar</button></a></div>
+
                 </div>
 
             </div>
         </div>
     </div>
-           
+
     </div>
     <!-- </div> -->
 
     <!-- Incluimos el footer, con esto tambien se incluyen todas las librerias -->
-    <?php 
+    <?php
     include "footer.php";
     ?>
 
@@ -186,7 +186,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
+
 
     <!-- FIN-->
 

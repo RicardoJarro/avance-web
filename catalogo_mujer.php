@@ -35,12 +35,20 @@
                         </li>
                         <li id="cat-accesorios"><a href="#">Accesorios<i class="icono derecha fas fa-chevron-down"></i></a>
                             <ul>
-                                <li id="cat-acces-mujer"><a href="#">Mujer</a></li>
-                                <li id="cat-acces-hombre"><a href="#">Hombre</a></li>
-                                <li id="cat-acces-ninos"><a href="#">Niños y niñas</a></li>
+                                <li id="cat-acces-mujer"><a href="#">Billeteras</a></li>
+                                <li id="cat-acces-gorras"><a href="catalogo_gorras.php">Gorras</a></li>
+                                <li id="cat-acces-ninos"><a href="#">Varios</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Articulos del hogar</a></li>
+                        <li id="cat-articulosh"><a href="#">Articulos del hogar<i class="icono derecha fas fa-chevron-down"></i></a>
+
+                            <ul>
+                                <li id="cat-acces-mujer"><a href="#">Tazas</a></li>
+                                <li id="cat-acces-hombre"><a href="#">Posters</a></li>
+                                <li id="cat-acces-hombre"><a href="#">Padmouse</a></li>
+                                <li id="cat-acces-ninos"><a href="#">Varios</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
 
@@ -104,7 +112,10 @@
 <script>
     $(document).ready(function() {
         $('#cat-ropa-mujer').addClass('seleccionado');
+        // $('#cat-accesorios ul').slideUp();
         $('#cat-accesorios ul').slideUp();
+        $('#cat-articulosh ul').slideUp();
+        
     });
     $(".btn-menu").click(function() {
         $(".contenedor-menu .menu").slideToggle("slow");
@@ -115,6 +126,10 @@
     });
     $("#cat-accesorios").click(function() {
         $('#cat-accesorios ul').slideToggle();
+        // $('#cat-ropa').addClass('seleccionado');
+    });
+    $("#cat-articulosh").click(function() {
+        $('#cat-articulosh ul').slideToggle();
         // $('#cat-ropa').addClass('seleccionado');
     });
 

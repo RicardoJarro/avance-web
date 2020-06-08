@@ -36,12 +36,19 @@
                         </li>
                         <li id="cat-accesorios"><a href="#">Accesorios<i class="icono derecha fas fa-chevron-down"></i></a>
                             <ul>
-                                <li id="cat-acces-mujer"><a href="#">Mujer</a></li>
-                                <li id="cat-acces-hombre"><a href="#">Hombre</a></li>
-                                <li id="cat-acces-ninos"><a href="#">Niños y niñas</a></li>
+                                <li id="cat-acces-mujer"><a href="#">Billeteras</a></li>
+                                <li id="cat-acces-gorras"><a href="catalogo_gorras.php">Gorras</a></li>
+                                <li id="cat-acces-ninos"><a href="#">Varios</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Articulos del hogar</a></li>
+                        <li id="cat-articulosh"><a href="#">Articulos del hogar<i class="icono derecha fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li id="cat-art-tazas"><a href="#">Tazas</a></li>
+                                <li id="cat-art-posters"><a href="#">Posters</a></li>
+                                <li id="cat-art-padmouse"><a href="#">Padmouse</a></li>
+                                <li id="cat-art-varios"><a href="#">Varios</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
 
@@ -49,7 +56,7 @@
                 <!-- MENU LATERAL -->
 
                 <!-- CATALOGO DE PRODUCTOS -->
-                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 border d-inline-block contenedor-catalogo m-0 p-0">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 d-inline-block contenedor-catalogo m-0 p-0">
                     <div class="w-100">
 
                         
@@ -118,8 +125,9 @@
 
 <script>
     $(document).ready(function() {
-        $('#cat-ropa-ninos').addClass('seleccionado');
+        $('#cat-ropa-ninos').addClass('seleccionado');;
         $('#cat-accesorios ul').slideUp();
+        $('#cat-articulosh ul').slideUp();
     });
     $(".btn-menu").click(function() {
         $(".contenedor-menu .menu").slideToggle("slow");
@@ -131,6 +139,10 @@
 
     $("#cat-accesorios").click(function() {
         $('#cat-accesorios ul').slideToggle();
+        // $('#cat-ropa').addClass('seleccionado');
+    });
+    $("#cat-articulosh").click(function() {
+        $('#cat-articulosh ul').slideToggle();
         // $('#cat-ropa').addClass('seleccionado');
     });
 </script>

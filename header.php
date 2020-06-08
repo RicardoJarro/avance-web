@@ -1,11 +1,9 @@
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
-
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -19,7 +17,6 @@
 </head>
 
 </head>
-
 <body>
     <header>
         <!-- TOP HEADER -->
@@ -56,7 +53,7 @@
                 <div class="row">
                     <!-- LOGO -->
                     <div class="col-lg-3">
-                        <div class="header-logo"> <a href="Inicio &#x2013; DISPERS.html" class="logo">
+                        <div class="header-logo"> <a href="index.html" class="logo">
 
                                 <img src="images/logoDispers.png" alt="" width="220" height="60">
 
