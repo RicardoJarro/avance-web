@@ -27,20 +27,20 @@
             <div class="container position-relative">
                 <!-- en este ul  estaba float-left -->
                 <ul class="header-links ">
-                    <li><a href="#"><i class="fa fa-phone"></i> Numero de telefono</a>
+                    <li><a href="#"><i class="fa fa-phone"></i> +593989100245</a>
                     </li>
-                    <li><a href="#"><i class="fa fa-envelope-o"></i> dispers@gmail.com.com</a>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i> dispers.store@gmail.com.com</a>
                     </li>
-                    <li><a href="#"><i class="fa fa-map-marker"></i> ubicacion</a>
+                    <li><a href="https://www.google.es/maps/place/Universidad+De+Cuenca/@-2.9002615,-79.0120829,17.3z/data=!4m5!3m4!1s0x91cd180d08006233:0x59ff5aaba4301326!8m2!3d-2.9006441!4d-79.0102078"><i class="fa fa-map-marker"></i> ubicacion</a>
                     </li>
-                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Ayuda</a>
+                    <li><a href="formulario.php"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Asistencia</a>
                     </li>
                 </ul>
                 <ul class="header-links">
                     <div class="btn-group " id="boton-cuenta">
                         <button type="button" class="btn btn-dark btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-o"></i> Cuenta</button>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item"> <i class="fa fa-user-o"></i> Perfil de usuario </a>
+                            <a href="perfil.php" class="dropdown-item"> <i class="fa fa-user-o"></i> Perfil de usuario </a>
                             <br> <a href="compras_realizadas.php" class="dropdown-item"> <i class="fa fa-list-ol" aria-hidden="true"></i> Listar compras </a>
                             <br> <a href="#" class="dropdown-item"> <i class="fa fa-times" aria-hidden="true"></i> Cerrar Sesion </a>
                         </div>
@@ -153,7 +153,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item"><a href="Inicio%20-%20DISPERS.html" class="nav-link "> Inicio </a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link "> Inicio </a></li>
 
                     <li class="nav-item dropdown"> <a href="catalogo_hombre.php" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ropa </a>
                         <div class="dropdown-menu"> <a href="catalogo_hombre.php" class="dropdown-item">Ropa de hombre </a>
@@ -166,17 +166,18 @@
 
                     <li class="nav-item dropdown"> <a href="catalogo_hombre.php" class="nav-link dropdown-toggle" data-toggle="dropdown"> Accesorios </a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item"> Billeteras </a> <br>
-                            <a href="#" class="dropdown-item"> Gorras </a> <br>
+                            <a href="catalogo_gorras.php" class="dropdown-item"> Billeteras </a> <br>
+                            <a href="catalogo_gorras.php" class="dropdown-item"> Gorras </a> <br>
+                            <a href="catalogo_gorras.php" class="dropdown-item"> Varios </a> <br>
                         </div>
                     </li>
 
                     <li class="nav-item dropdown"> <a href="catalogo_hombre.php" class="nav-link dropdown-toggle" data-toggle="dropdown"> Articulos del Hogar </a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item"> Tazas </a> <br>
-                            <a href="#" class="dropdown-item"> Mousepad </a> <br>
-                            <a href="#" class="dropdown-item"> Posters </a> <br>
-                            <a href="#" class="dropdown-item"> Varios </a> <br>
+                            <a href="catalogo_articulos_tazas.php" class="dropdown-item"> Tazas </a> <br>
+                            <a href="catalogo_articulos_tazas.php" class="dropdown-item"> Mousepad </a> <br>
+                            <a href="catalogo_articulos_tazas.php" class="dropdown-item"> Posters </a> <br>
+                            <a href="catalogo_articulos_tazas.php" class="dropdown-item"> Varios </a> <br>
 
                         </div>
                     </li>

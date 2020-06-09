@@ -13,3 +13,10 @@
 .valor-resumen::after{
     content: " $";
 }
+
+@media screen and (max-width: 986px){
+    .fact-container-derecho{
+
+    width: 100%;
+    }
+}

@@ -89,7 +89,8 @@
 
                     <div class="form-group center">
                         <!-- Submit Button -->
-                        <a href="pago.php"><button class="btn btn-danger">Confirmar compra</button></a>
+                        <a href="pago.php" class="btn btn-danger">Confirmar compra</a>
+                        <!-- <a href="pago.php"><button class="btn btn-danger">Confirmar compra</button></a> -->
                     </div>
                 </form>
             </div>
@@ -115,7 +116,6 @@
 
                 <div id="fact-items-compra">
                     <div>
-
                         <div class="row item-carrito border rounded">
                             <div class="container-imagen d-inline-block">
                                 <img src="images/camisa-rubik_1_negro.jpg" class="h-100">

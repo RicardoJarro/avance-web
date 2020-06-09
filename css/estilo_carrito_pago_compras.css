@@ -262,7 +262,23 @@ text-align: center;}
     transform: translateY(-50%);
  }
 
- 
+ @media screen and (max-width: 980px) {
+    #fact-items-compra .info-item-carrito{
+    left: 13px;
+    }
+    
+    #fact-items-compra .item-carrito{
+        height: 150px;
+    }
+    /* #fact-items-compra .price_now-price{
+        display: block;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    } */
+}
+
+
 @media screen and (max-width: 420px) {
     #container-compras .compra-unitaria{
         height: 285px;
