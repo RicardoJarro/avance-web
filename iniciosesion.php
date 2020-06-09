@@ -40,7 +40,7 @@
          <input type="button" value="Iniciar" class="button btn btn-danger">
          <p><a href="">Olvido su contraseña</a></p>
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-         <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate </a></p>
+         <p>¿No tienes una cuenta? <a class="link" href="registrar_usuarios.php">Registrate </a></p>
      </div>
 
     <hr></hr>

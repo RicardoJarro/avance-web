@@ -28,26 +28,26 @@
                         <div class="form-group">
                             <!-- Full Name -->
                             <label for="full_name_id" class="control-label">Nombre completo</label>
-                            <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Ricardo Jarro">
+                            <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="Ricardo Jarro" requiered>
                         </div>
 
                     </div>
                     <div class="form-group">
                         <!-- Street 1 -->
                         <label for="street1_id" class="control-label">Direccion</label>
-                        <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Ramayana y Telemaco">
+                        <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Ramayana y Telemaco" requiered>
                     </div>
 
                     <div class="form-group">
                         <!-- Street 2 -->
                         <label for="street2_id" class="control-label">Detalle secundario</label>
-                        <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Condominio Valle de los Rios, casa 2">
+                        <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Condominio Valle de los Rios, casa 2" requiered>
                     </div>
 
                     <div class="form-group">
                         <!-- City-->
                         <label for="city_id" class="control-label">Ciudad</label>
-                        <input type="text" class="form-control" id="city_id" name="city" placeholder="Cuenca">
+                        <input type="text" class="form-control" id="city_id" name="city" placeholder="Cuenca" requiered>
                     </div>
 
                     <div class="form-group">
@@ -83,8 +83,8 @@
 
                     <div class="form-group">
                         <!-- Zip Code-->
-                        <label for="zip_id" class="control-label">Zip Code</label>
-                        <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
+                        <label for="zip_id" class="control-label" requiered>Zip Code</label>
+                        <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####" requiered>
                     </div>
 
                     <div class="form-group center">
