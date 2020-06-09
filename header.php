@@ -21,8 +21,9 @@
     <header>
         <!-- TOP HEADER -->
         <div id="top-header">
-            <div class="container">
-                <ul class="header-links float-left">
+            <div class="container position-relative">
+                <!-- en este ul  estaba float-left -->
+                <ul class="header-links ">
                     <li><a href="#"><i class="fa fa-phone"></i> Numero de telefono</a>
                     </li>
                     <li><a href="#"><i class="fa fa-envelope-o"></i> dispers@gmail.com.com</a>
@@ -32,8 +33,8 @@
                     <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Ayuda</a>
                     </li>
                 </ul>
-                <ul class="header-links float-right">
-                    <div class="btn-group">
+                <ul class="header-links">
+                    <div class="btn-group " id="boton-cuenta">
                         <button type="button" class="btn btn-dark btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-o"></i> Cuenta</button>
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item"> <i class="fa fa-user-o"></i> Perfil de usuario </a>

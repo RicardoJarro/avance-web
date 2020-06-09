@@ -437,6 +437,14 @@ textarea.input {
   margin-right: 5px;
 }
 
+.header-links #boton-cuenta{
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  font-size: 40px;
+  transform: translateY(-50%);
+}
+
 /*----------------------------*\
 	Logo
 \*----------------------------*/
@@ -657,6 +665,7 @@ textarea.input {
 .header-ctn li.nav-toggle {
   display: none;
 }
+
 
 /*----------------------------*\
 	responsive nav
@@ -2136,9 +2145,12 @@ textarea.input {
 @media only screen and (max-width: 1201px) {}
 
 @media only screen and (max-width: 991px) {
+
   #top-header .header-links.pull-left {
     float: none !important;
   }
+  
+
   #top-header .header-links.pull-right {
     float: none !important;
     margin-top: 5px;
@@ -2171,6 +2183,22 @@ textarea.input {
   .section-tab-nav li {
     margin-top: 10px;
   }
+  .header-links #boton-cuenta{
+    right: 60px;
+    top: 60px;
+    z-index: 100;
+  }
+  #top-header{
+    height: 100px;
+  }
+  /* .header-links #boton-cuenta{
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    font-size: 40px;
+    transform: translateY(-50%);
+  } */
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -2184,5 +2212,13 @@ textarea.input {
   .store-pagination {
     float: none;
     margin-top: 10px;
+  }
+  #top-header{
+    height: 130px;
+  }
+  .header-links #boton-cuenta{
+    right: 70px;
+    width: 50%;
+    transform: translateX(-50%);
   }
 }

@@ -45,7 +45,7 @@
                         </li>
                         <li id="cat-articulosh"><a href="#">Articulos del hogar<i class="icono derecha fas fa-chevron-down"></i></a>
                             <ul>
-                                <li id="cat-art-tazas"><a href="catalogo_articulos_tazas.php">Tazas</a></li>
+                                <li id="cat-art-tazas"><a href="catalogo_articuos_tazas.php">Tazas</a></li>
                                 <li id="cat-art-posters"><a href="#">Posters</a></li>
                                 <li id="cat-art-padmouse"><a href="#">Padmouse</a></li>
                                 <li id="cat-art-varios"><a href="#">Varios</a></li>
@@ -62,9 +62,9 @@
                     <div class="w-100">
                         <div class="product-catalog">
                             <a href="producto.php">
-                                <img src="images/accesorios/gorras/gorra-snapback-poker-gris.jpg">
+                                <img src="images/articulos del hogar/tazas/taza-negra-rottweiler.jpg">
                                 <div class="product-catalog-info">
-                                    <p id="nombre">GORRA SNAPBACK POKER</p>
+                                    <p id="nombre">TAZA NEGRA ROTTWEILER</p>
                                     <p id="precio">15.99 $</p>
                                 </div>
                             </a>
@@ -72,20 +72,9 @@
 
                         <div class="product-catalog mano">
                             <a href="producto.php">
-                                <img src="images/accesorios/gorras/gorra-snapback-tiburon-negra.jpg">
+                                <img src="images/articulos del hogar/tazas/taza-negra-saxofon.jpg">
                                 <div class="product-catalog-info">
-                                    <p id="nombre">GORRA SNAPBACK SARK</p>
-                                    <p id="precio">15.99 $</p>
-                                </div>
-                            </a>
-                        </div>
-
-
-                        <div class="product-catalog mano">
-                            <a href="producto.php">
-                            <img src="images/accesorios/gorras/gorra-snapback-pato-negro.jpg">
-                                <div class="product-catalog-info">
-                                    <p id="nombre">GORRA SNAPBACK PATO</p>
+                                    <p id="nombre">TAZA NEGRA JAZZ</p>
                                     <p id="precio">15.99 $</p>
                                 </div>
                             </a>
@@ -94,10 +83,21 @@
 
                         <div class="product-catalog mano">
                             <a href="producto.php">
-                                <img src="images/accesorios/gorras/gorra-beisbol-terbol-negra.jpg">
+                            <img src="images/articulos del hogar/tazas/taza-blanca-hombre_gengibre.jpg">
                                 <div class="product-catalog-info">
-                                    <p id="nombre">GORRA BEISBOL TREBOL</p>
-                                    <p id="precio">16.99 $</p>
+                                    <p id="nombre">TAZA BLANCA NAVIDEÑA</p>
+                                    <p id="precio">12.99 $</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="product-catalog mano">
+                            <a href="producto.php">
+                                <img src="images/articulos del hogar/tazas/taza-blanca-tiburon.jpg">
+                                <div class="product-catalog-info">
+                                    <p id="nombre">TAZA BLANCA TIBURÓN</p>
+                                    <p id="precio">12.99 $</p>
                                 </div>
                             </a>
                         </div>
@@ -123,9 +123,9 @@
 
 <script>
     $(document).ready(function() {
-        $('#cat-acces-gorras').addClass('seleccionado');
+        $('#cat-art-tazas').addClass('seleccionado');
         $('#cat-ropa ul').slideUp();
-        $('#cat-articulosh ul').slideUp();
+        $('#cat-accesorios ul').slideUp();
     });
     $(".btn-menu").click(function() {
         $(".contenedor-menu .menu").slideToggle("slow");
