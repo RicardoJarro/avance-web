@@ -46,9 +46,9 @@
                         <div class="footer">
                             <h3 class="footer-title">Categorías</h3>
                             <ul class="footer-links">
-                                <li><a href="#">Ropa</a></li>
-                                <li><a href="#">Accesorios</a></li>
-                                <li><a href="#">Articulos del Hogar</a></li>
+                                <li><a href="catalogo_hombre.php">Ropa</a></li>
+                                <li><a href="catalogo_gorras.php">Accesorios</a></li>
+                                <li><a href="catalogo_articulos_tazas.php">Articulos del Hogar</a></li>
                             </ul>
                         </div>
                     </div>

@@ -89,7 +89,7 @@
 
                     <div class="form-group center">
                         <!-- Submit Button -->
-                        <a href=""></a><button type="submit" class="btn btn-danger">Confirmar compra</button>
+                        <a href="pago.php"><button class="btn btn-danger">Confirmar compra</button></a>
                     </div>
                 </form>
             </div>

@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie-edge">
-
+		<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+        <link rel="stylesheet" href="css/inicio_perfil_asistencia_preguntas.css">
+        
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 
@@ -14,6 +16,8 @@
 		<!-- Font Awesome Icon -->
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 
+		<!-- Custom stlylesheet -->
+		<!-- <link type="text/css" rel="stylesheet" href="css/style.css"/> -->
 
     
         
@@ -40,36 +44,34 @@
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-						<legend class="text-center header"><h1>Registro de datos</h1></legend>
+						<legend class="text-center header"><h1>Formulario</h1></legend>
 						<p class="col-12 text-center">Bienvenido al registo de datos, recuerda completar todos los campos</p>
 								<p class="col-12 text-center text-danger small">*Todos los campos son obligatorios</p>
-						
+                        
+                                
+
+                                <div>    
+                                    <select class="select-css" name="comboAsunto">                  
+                                        <option value="1" selected>Asunto</option>
+                                        <option value="2" >Asunto1</option> 
+                                        <option value="3">Asunto2 </option>
+                                        <option value="3">Asunto3 </option>
+                                        <option value="3">Asunto4 </option>
+                                      </select>
+             
+                    </div>
 						<div class="form-group">
-							<div class="col-md-7 ">
-                            	<span class="col-md-0 offset-md-5">Nombre de usuario: </span>
-                                <input id="fname" name="name" type="text" placeholder="Ingrese su nombre" class="form-control offset-md-5"  required>
-                            </div>
-						</div>
-						
-                        <div class="form-group">
-							<div class="col-md-7">
-                           		<span class="col-md-0  offset-md-5">Contraseña: </span>
-                                <input id="contraseña" name="contraseña" type="password" placeholder="Ingrese su contraseña" class="form-control offset-md-5" required>
+                            <div class="col-md-7">
+								<span class="col-md-0 offset-md-5">Nombre: </span>
+                                <input id="nbame" name="name" type="texto" placeholder="Ingrese su nombre" class="form-control offset-md-5"  required>
                             </div>
                         </div>
-
-						<div class="form-group">
-                            <div class="col-md-7">
-								<span class="col-md-0 offset-md-5">Nick name: </i></span>
-                                <input id="nick" name="nick" type="texto" placeholder="Ingrese su nick" class="form-control offset-md-5"  required>
-                            </div>
-						</div>
-
+                    
 						
 						<div class="form-group">
                             <div class="col-md-7">
-								<span class="col-md-0 offset-md-5">Dirección: </span>
-                                <input id="direccion" name="direccion" type="texto" placeholder="Ingrese su dirección" class="form-control offset-md-5"  required>
+								<span class="col-md-0 offset-md-5">Numero de Pedido: </span>
+                                <input id="npedido" name="numero_pedido" type="texto" placeholder="Ingrese el numero de pedido" class="form-control offset-md-5"  required>
                             </div>
                         </div>
 
@@ -79,27 +81,43 @@
                                 <input id="correo" name="correo" type="email" placeholder="Ingrese su correo" class="form-control offset-md-5"  required>
                             </div>
                         </div>
-
+                       
                         <div class="form-group">
                             <div class="col-md-7">
-								<span class="col-md-0 offset-md-5">Telefono: </i></span>
-                                <input id="telefono" name="telefono" type="text" placeholder="Ingrese su telefono" class="form-control offset-md-5"  required>
+								
+                                <input type="file" id="narchivo" name="archivo" type="email" placeholder="Archivo adjunto" class="form-control offset-md-5"  required>
                             </div>
+                        </div>
+
+        </div>
+                          
+
+                            <p></p>
+
+                           
+<p> <textarea name="textarea" rows="10" cols="50">Mensaje
+
+</textarea></p>
+
+ 
+  
+</div> 
+    
+    
+    <p></p>
+
                         </div>
                         <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-danger btn-lg">Registrarse</button>
+                                <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
                             </div>
 						</div>
 						<div class="col-md-12 ">   
                         	<p class="text-center">
-								Al registrarte aceptas nuestras Condiciones de uso <br>
-								y Política de provacidad
+							Un asistente te respondera lo mas pronto posible  gracias por visitar nuestra pagina,
                             </p>
                         </div>
-                        <div class="col-12 ">   
-							<p class="col-12 text-center"> Ya tienes una cuenta?  <a href="iniciosesion.php" class="alert-link">Inicia Sesion</a></p>
-                        </div>
+                    
                     </fieldset>
                 </form>
             </div>

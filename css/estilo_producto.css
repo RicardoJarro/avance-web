@@ -86,6 +86,13 @@
     background-color: #000000;
 }
 
+.modal-footer a{
+    text-decoration: none;
+}
+.modal-footer a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
 /* Productos relaciondos */
 .img-product-recommend {
     max-width: 254px;

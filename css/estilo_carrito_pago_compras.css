@@ -4,6 +4,9 @@
     cursor: pointer;
 }
 
+.container-navbar{
+    background-color: #ffffff;
+}
 
 /* Parte izquierda */
 .separador-carrito {

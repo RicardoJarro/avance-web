@@ -65,7 +65,7 @@
                                 <img src="images/articulos del hogar/tazas/taza-negra-rottweiler.jpg">
                                 <div class="product-catalog-info">
                                     <p id="nombre">TAZA NEGRA ROTTWEILER</p>
-                                    <p id="precio">15.99 $</p>
+                                    <p id="precio">5.99 $</p>
                                 </div>
                             </a>
                         </div>
@@ -75,7 +75,7 @@
                                 <img src="images/articulos del hogar/tazas/taza-negra-saxofon.jpg">
                                 <div class="product-catalog-info">
                                     <p id="nombre">TAZA NEGRA JAZZ</p>
-                                    <p id="precio">15.99 $</p>
+                                    <p id="precio">5.99 $</p>
                                 </div>
                             </a>
                         </div>
@@ -86,7 +86,7 @@
                             <img src="images/articulos del hogar/tazas/taza-blanca-hombre_gengibre.jpg">
                                 <div class="product-catalog-info">
                                     <p id="nombre">TAZA BLANCA NAVIDEÑA</p>
-                                    <p id="precio">12.99 $</p>
+                                    <p id="precio">5.99 $</p>
                                 </div>
                             </a>
                         </div>
@@ -97,7 +97,7 @@
                                 <img src="images/articulos del hogar/tazas/taza-blanca-tiburon.jpg">
                                 <div class="product-catalog-info">
                                     <p id="nombre">TAZA BLANCA TIBURÓN</p>
-                                    <p id="precio">12.99 $</p>
+                                    <p id="precio">5.99 $</p>
                                 </div>
                             </a>
                         </div>

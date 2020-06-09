@@ -33,7 +33,7 @@
                     </div>
                     <div class="modal-footer">
                         
-                        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-shopping-cart"></i> <a href="carrito.php">Ver Carrito</a></button>
+                        <button type="button" class="btn btn-danger"><i class="fas fa-shopping-cart"></i> <a href="carrito.php">Ver Carrito</a></button>
                         
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Aceptar</button>
                     </div>

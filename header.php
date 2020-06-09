@@ -1,5 +1,7 @@
 <html>
+
 <head>
+<link  rel="icon"   href="images/icon.png" type="" />
     <meta charset="UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,6 +19,7 @@
 </head>
 
 </head>
+
 <body>
     <header>
         <!-- TOP HEADER -->
@@ -66,7 +69,7 @@
                     <div class="col-lg-7 aling-itme-center">
                         <div class="header-search">
                             <form>
-                                <input class="input" placeholder="Buscar Producto">
+                                <input class="input offset-md-2" placeholder="Buscar Producto">
                                 <button class="search-btn">Search</button>
                             </form>
                         </div>
@@ -76,23 +79,21 @@
                     <div class="col-lg-2 clearfix">
                         <div class="header-ctn">
                             <!-- Cart -->
-                            <div class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
 
+                            <div class="dropdown position-static">
+                                <a class="dropdown-toggle mano" data-toggle="dropdown" aria-expanded="true">
                                     <i class="fa fa-shopping-cart"></i>
-
                                     <span>Tu Carrito</span>
-
                                     <div class="qty">3</div>
-
                                 </a>
-                                <div class="cart-dropdown">
-                                    <div class="cart-list">
-                                        <div class="product-widget">
+                                <div class="dropdown-menu ">
+                                    <div class="cart-list p-2">
+                                        <div class="product-widget ">
                                             <div class="product-img">
-                                                <img src="./img/camiseta.png" alt="">
+                                                <img src="images/articulos del hogar/tazas/taza-negra-saxofon.jpg" alt="">
                                             </div>
                                             <div class="product-body">
-                                                <h3 class="product-name"><a href="#">camiseta</a></h3>
+                                                <h3 class="product-name"><a href="#">TAZA NEGRA JAZZ</a></h3>
                                                 <h4 class="product-price"><span class="qty">1x</span>$20.00</h4>
                                             </div>
                                             <button class="delete"><i class="fa fa-close"></i>
@@ -100,20 +101,21 @@
                                         </div>
                                         <div class="product-widget">
                                             <div class="product-img">
-                                                <img src="./img/taza.png" alt="">
+                                                <img src="images/camisa-tiburon_1_blanco.jpg" alt="">
                                             </div>
                                             <div class="product-body">
-                                                <h3 class="product-name"><a href="#">Taza personalizada</a></h3>
-                                                <h4 class="product-price"><span class="qty">2x</span>$15.00</h4>
+                                                <h3 class="product-name"><a href="#">CAMISETA DADDY SHARK</a></h3>
+                                                <h4 class="product-price"><span class="qty">2x</span>$39,98</h4>
                                             </div>
                                             <button class="delete"><i class="fa fa-close"></i>
                                             </button>
                                         </div>
                                     </div>
-                                    <div class="cart-summary"> <small>3 Articulos seleccionados</small>
-                                        <h5>SUBTOTAL: $50.00</h5>
+                                    <div class="cart-summary p-2"> <small>3 Articulos seleccionados</small>
+                                        <h5>SUBTOTAL: $44.97</h5>
                                     </div>
-                                    <div class="cart-btns"> <a href="carrito.php">Ver Carrito</a>
+                                    <div class="cart-btns p-2">
+                                        <a href="carrito.php">Ver Carrito</a>
                                         <a href="facturacion.php">Comprar <i class="fa fa-arrow-circle-right"></i></a>
                                     </div>
                                 </div>
@@ -140,13 +142,57 @@
         <!-- /MAIN HEADER -->
         <!-- /HEADER -->
         <!-- NAVIGATION -->
-        <nav id="navigation">
-            <!-- container -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-light ml-5 mr-5 container-navb">
+
+            <button class="navbar-toggler" role="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item"><a href="Inicio%20-%20DISPERS.html" class="nav-link "> Inicio </a></li>
+
+                    <li class="nav-item dropdown"> <a href="catalogo_hombre.php" class="nav-link dropdown-toggle" data-toggle="dropdown"> Ropa </a>
+                        <div class="dropdown-menu"> <a href="catalogo_hombre.php" class="dropdown-item">Ropa de hombre </a>
+                            <br> <a href="catalogo_mujer.php" class="dropdown-item"> Ropa de mujeres </a>
+                            <br> <a href="catalogo_ninos.php" class="dropdown-item"> Ropa de niños </a>
+                            <br>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown"> <a href="catalogo_hombre.php" class="nav-link dropdown-toggle" data-toggle="dropdown"> Accesorios </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item"> Billeteras </a> <br>
+                            <a href="#" class="dropdown-item"> Gorras </a> <br>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown"> <a href="catalogo_hombre.php" class="nav-link dropdown-toggle" data-toggle="dropdown"> Articulos del Hogar </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item"> Tazas </a> <br>
+                            <a href="#" class="dropdown-item"> Mousepad </a> <br>
+                            <a href="#" class="dropdown-item"> Posters </a> <br>
+                            <a href="#" class="dropdown-item"> Varios </a> <br>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- <nav id="navigation">
+       
             <div class="container">
-                <!-- responsive-nav -->
+           
                 <div id="responsive-nav">
 
-                    <!-- NAV -->
+                 
                     <ul class="main-nav nav">
                         <li class="nav-item"><a href="Inicio%20-%20DISPERS.html" class="nav-link dropdown-toggle" data-toggle="dropdown"> Inicio </a>
                         </li>
@@ -171,19 +217,23 @@
                             </div>
                         </li>
                     </ul>
-                    <!-- /NAV -->
+
                 </div>
-                <!-- /responsive-nav -->
+
             </div>
-            <!-- /container -->
-        </nav>
-        <!-- /NAVIGATION -->
+
+        </nav> -->
+
     </header>
 
+    <!-- LIBRERIAS -->
+    <!-- <script src="js/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <!-- LIBRERIAS -->
 </body>
 
 </html>
