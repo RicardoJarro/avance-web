@@ -35,18 +35,18 @@
                         </li>
                         <li id="cat-accesorios"><a href="#">Accesorios<i class="icono derecha fas fa-chevron-down"></i></a>
                             <ul>
-                                <li id="cat-acces-mujer"><a href="#">Billeteras</a></li>
+                                <li id="cat-acces-mujer"><a href="catalogo_gorras.php">Billeteras</a></li>
                                 <li id="cat-acces-gorras"><a href="catalogo_gorras.php">Gorras</a></li>
-                                <li id="cat-acces-ninos"><a href="#">Varios</a></li>
+                                <li id="cat-acces-ninos"><a href="catalogo_gorras.php">Varios</a></li>
                             </ul>
                         </li>
                         <li id="cat-articulosh"><a href="#">Articulos del hogar<i class="icono derecha fas fa-chevron-down"></i></a>
 
                             <ul>
-                                <li id="cat-acces-mujer"><a href="#">Tazas</a></li>
-                                <li id="cat-acces-hombre"><a href="#">Posters</a></li>
-                                <li id="cat-acces-hombre"><a href="#">Padmouse</a></li>
-                                <li id="cat-acces-ninos"><a href="#">Varios</a></li>
+                                <li id="cat-acces-mujer"><a href="catalogo_accesorios_tazas.php">Tazas</a></li>
+                                <li id="cat-acces-hombre"><a href="catalogo_accesorios_tazas.php">Posters</a></li>
+                                <li id="cat-acces-hombre"><a href="catalogo_accesorios_tazas.php">Padmouse</a></li>
+                                <li id="cat-acces-ninos"><a href="catalogo_accesorios_tazas.php">Varios</a></li>
                             </ul>
                         </li>
                     </ul>

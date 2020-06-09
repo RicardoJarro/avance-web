@@ -37,7 +37,7 @@
         <label for="check1">Recordar</label >
         </p>
 
-         <input type="button" value="Iniciar" class="button">
+         <input type="button" value="Iniciar" class="button btn btn-danger">
          <p><a href="">Olvido su contraseña</a></p>
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
          <p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate </a></p>
@@ -50,13 +50,13 @@
 
         <div class="button-facebook" >
             <i class="fab fa-facebook"></i>
-            <input type="button-fb" value="Facebook" class="button1"  >
+            <input disabled=»disabled» type="button-fb" value="Facebook" class="button1"  >
             </div>
             <br>
 
             <div class="button-google btn-danger">
                 <i class="fab fa-google btn-danger"></i>
-                <input type="button-g" value="Google" class="button1 btn-danger" >
+                <input disabled=»disabled» type="button-g" value="Google" class="button1 btn-danger" >
                 </div>
 </div>
 
